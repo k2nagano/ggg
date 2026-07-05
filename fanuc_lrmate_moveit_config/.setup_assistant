@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: fanuc_lrmate_description
+    relative_path: robot/lrmate200id7l.urdf.xacro
+  srdf:
+    relative_path: config/lrmate200id7l.srdf
+  package_settings:
+    author_name: naga
+    author_email: k2nagano@silver.ocn.ne.jp
+    generated_timestamp: 1783247421
