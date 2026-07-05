@@ -151,14 +151,17 @@ def generate_launch_description():
         DeclareLaunchArgument(
             "robot_model",
             description="The robot model (required).",
+            default_value="lrmate200id7l",
         ),
         DeclareLaunchArgument(
             "robot_series",
             description="The robot model (required).",
+            default_value="lrmate",
         ),
         DeclareLaunchArgument(
             "moveit_config",
             description="The package name for moveit config (required).",
+            default_value="fanuc_lrmate_moveit_config",
         ),
         DeclareLaunchArgument(
             "robot_ip",
